@@ -95,4 +95,10 @@ highlight SpellRare                 guifg=#D75F87 ctermfg=168 guibg=NONE ctermbg
 highlight SpellCap                  guifg=#D0D0FF ctermfg=189 guibg=NONE ctermbg=NONE gui=underline cterm=underline
 highlight MatchParen                guifg=#FFFFFF ctermfg=15 guibg=#005f5f ctermbg=23
 
-highlight LineNr guifg=#A0A0A0 guibg=#F5F5F5
+highlight LineNr guifg=#505050 guibg=NONE
+
+highlight Directory guifg=#6D9CBE
+ 
+highlight StatusLineNC gui=NONE    guifg=#FFFFFF guibg=#555555
+highlight StatusLine   gui=bold    guifg=#FFFFFF guibg=#555555
+highlight VertSplit    gui=none    guifg=#555555 guibg=#555555

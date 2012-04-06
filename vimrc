@@ -7,10 +7,10 @@ filetype plugin on
 :set guifont=Inconsolata:h14
 :set tabstop=4 softtabstop=4 shiftwidth=4 noexpandtab
 :set so=7
-:set number
 nmap <F4> :w<CR>:make<CR>:cw<CR>
 if has("gui_running")
-    set guioptions-=T
+    :set guioptions-=T
+	:set number
 	autocmd VimEnter * NERDTree
 	autocmd BufEnter * NERDTreeMirror
 endif

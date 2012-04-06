@@ -1,2 +1,2 @@
 ln -s ./vimrc ~/.vimrc
-git submodule init --recursive
+git submodule update --init --recursive

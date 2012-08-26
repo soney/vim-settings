@@ -101,4 +101,6 @@ highlight Directory guifg=#6D9CBE
  
 highlight StatusLineNC gui=NONE    guifg=#FFFFFF guibg=#555555
 highlight StatusLine   gui=bold    guifg=#FFFFFF guibg=#555555
-highlight VertSplit    gui=none    guifg=#555555 guibg=#555555
+highlight VertSplit    gui=NONE    guifg=#555555 guibg=#555555
+
+highlight NonText		guifg=#444444

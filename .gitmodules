@@ -4,3 +4,6 @@
 [submodule "bundle/vim-less"]
 	path = bundle/vim-less
 	url = https://github.com/groenewege/vim-less.git
+[submodule "typescript-vim"]
+	path = typescript-vim
+	url = git@github.com:leafgarland/typescript-vim.git
